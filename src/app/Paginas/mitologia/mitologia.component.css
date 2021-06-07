@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+/* Hueso #f0e7c0
+Amarillo #f5ce7f
+Rosa #ed6c67
+Magenta #a60039
+AguaMarina #009688
+Azul #050a3c
+Gris #4c565e*/
+/* -----------------------------------------ENCABEZADO------------------------------------------------------------ */
+.Contenido{
+    background-color: #ed6c67;
+}
+#TituloMit{
+    font-family: 'Gabriola';
+    font-size: 100px;
+    color: #a60039;
+    padding-top: 2px;
+    padding-right: 250px;
+    padding-left: 100px;
+    text-decoration:underline;
+}
+
+/* -----------------------------------------GENERAL------------------------------------------------------------*/
+.Mitos{
+    align-content: center;
+}
+.Mitos h2{
+    font-size: 60px;
+    font-family: 'Gabriola';
+    color: #f5ce7f;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.Mitos video{
+    padding: 15px 20px 15px 20px;;
+    border: #f0e7c0 dotted 5px static; 
+}
+/* -----------------------------------------SECCION 1------------------------------------------------------------ */
+.Kraken {
+    text-align: center;
+    width: 98%;
+    display: inline-flex;
+    background-color: #050a3c; 
+}
+.TextoKraken{
+    display: block!important;
+    
+}
+.TextoKraken p{
+    color: #f0e7c0;
+    font-weight: bold;
+    margin-top: -25px;
+    padding:  1px 10px 3px 10px;
+    font-size: 20px;
+    font-family: 'Open Sans Condensed';
+}
+
+/* -----------------------------------------SECCION 2------------------------------------------------------------ */
+.Sirenas {
+    text-align: center;
+    width: 98%;
+    display: inline-flex;
+    background-color:#a60039; 
+}
+.TextoSirenas{
+    display: block!important;
+
+}
+.TextoSirenas p{
+    font-weight:bold;
+    margin-top: -25px;
+    padding:  1px 10px 3px 10px;
+    font-size: 20px;
+    font-family: 'Open Sans Condensed';
+}
+/* -----------------------------------------SECCION 3------------------------------------------------------------ */
+.Megalodon {
+    margin-top: -4px;
+    text-align: center;
+    width: 98%;
+    display: inline-flex;
+    background-color:#4c565e; 
+}
+.TextoMegalodon{
+    display: block!important;
+
+}
+.TextoMegalodon p{
+    font-weight: bold;
+    margin-top: -25px;
+    padding:  1px 10px 3px 10px;
+    font-size: 20px;
+    font-family: 'Open Sans Condensed';
+}

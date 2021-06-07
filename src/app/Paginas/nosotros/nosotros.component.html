@@ -1,0 +1,79 @@
+
+    <title> Nosotros </title>
+    <link rel="icon" href="assets/IconoNosotros.png">
+    
+
+<section class="Contenido">
+    
+    <header class="EncabezadoNos">
+
+        <h1 id="TituloNos">Nosotros</h1>
+
+        <app-menu></app-menu>
+        
+    </header>
+    <!-- -------------------------------------------SECCION 1--------------------------------------------------------------------- -->
+    <header class="sec1">
+        <h2>¿Quíenes somos?</h2>
+        <p>
+            Somos una pareja de programadores colombianos, con amor y curiosidad hacia el océano y sus criaturas,
+            creemos que en Colombia no se le da la importancia que merecen los océanos y que necesitan voz para el país
+            y para el mundo necesitan más atención y cuidados. Muchas personas viven de los océanos, viven de la pesca y
+            del turismo en nuestras hermosas playas.
+        </p>
+    </header>
+
+    <!-- -------------------------------------------SECCION 2--------------------------------------------------------------------- -->
+
+    <header class="sec2">
+        <h2>¿Que pretendemos con esta pagina?</h2>
+        <p>
+            Buscamos darles más visibilidad a los océanos en nuestro país y alrededor del mundo, esperamos que por medio
+            de esta pagina mas personas nos demos cuenta de la importancia de estos masivos cuerpos de agua llenos de
+            vida. También informarlos de diferentes formas en las que podemos ayudar los mares y sus criaturas.
+        </p>
+    </header>
+
+    <!-- -------------------------------------------SECCION 3--------------------------------------------------------------------- -->
+
+    <header class="sec3">
+        <section class="textof">
+            <h2>Ayudanos</h2>
+            <p>
+                Por medio del siguiente formulario por favor danos <br>
+                tus sugerencias para la pagina y que te parece.<br>
+                <b>!!!Gracias!!!</b>
+            </p>
+        </section>
+
+    <!-- ---------------------------------------FORMULARIO--------------------------------------------------------------------- -->
+
+
+
+  <div class="container formulario" >
+  
+        <form [formGroup]="createCategoryForm" (ngSubmit)="createCategory()" >
+            <div class="form-group row">
+                <label for="name" class="col-sm-2 col-form-label">Nombre</label>
+                <div class="col-sm-10">
+                    <input formControlName="Nombre" type="text" class="form-control" id="Nombre">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="description" class="col-sm-2 col-form-label">Email</label>
+                <div class="col-sm-10">
+                    <input formControlName="Email" type="text" class="form-control" id="Email">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="text" class="col-sm-2 col-form-label">Sugerencia</label>
+                <div class="col-sm-10">
+                    <textarea formControlName="Sugerencia" class="form-control" id="Sugerencia" rows="3" ></textarea>
+                </div>
+            </div>
+
+            <button id="BotonE"> Enviar </button>
+        </form>
+    </div>
+
+
