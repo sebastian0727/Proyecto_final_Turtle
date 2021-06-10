@@ -9,7 +9,7 @@ Gris #4c565e*/
 /* -----------------------------------------ENCABEZADO------------------------------------------------------------ */
 .Contenido{
     background-color: #f7c760;
-    padding-bottom: 126%;
+    padding-bottom: 180%;
 
 }
 #TituloMit{
@@ -240,6 +240,7 @@ height: 350px;
     flex-wrap: wrap;
     justify-content: center;
     margin: auto;
+    margin-bottom: 800px;
 }
 
 .container5 .card5{
